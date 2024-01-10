@@ -39,6 +39,9 @@ body header nav {
   border-radius: 10px;
   padding: 5px;
 }
+body header nav .menu {
+  display: none;
+}
 body header nav .logo {
   text-decoration: none;
   color: red;
@@ -159,4 +162,71 @@ body footer .footer-adress-map .adress {
 body footer .footer-adress-map .map {
   width: 30%;
   height: 80%;
+}
+
+@media screen and (max-width: 1170px) {
+  footer .footer-adress-map .adress {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 950px) {
+  footer {
+    text-align: center;
+  }
+  footer .footer-adress-map {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer-adress-map .map {
+    width: 100% !important;
+  }
+  header nav {
+    width: 80vh !important;
+  }
+  header nav ul li a {
+    font-size: 12px;
+  }
+  .catalog .cars .car {
+    width: 50% !important;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 710px) {
+  body footer {
+    padding: 0 20px;
+  }
+  body footer .footer-adress-map .map {
+    width: 100%;
+  }
+  body header nav {
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+    width: 100% !important;
+    gap: 0;
+  }
+  body header nav ul {
+    margin: 0;
+  }
+  body header nav ul li {
+    display: none;
+  }
+  body header nav:hover {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+  body header nav:hover ul {
+    display: flex;
+    flex-direction: column;
+  }
+  body header nav:hover ul li {
+    display: block;
+  }
+  body header nav:hover .menu {
+    display: none;
+  }
+  .catalog .cars .car {
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=style.css.map */
