@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.sass">
+  <link rel="stylesheet" href="scss/style.css">
   <title>MegaRent</title>
 </head>
 <body>
     <header>
         <nav>
-          <a href="#" class="logo">Mega</a><span>Rent</span>
+          <div>
+
+            <a href="#" class="logo">Mega</a><span>Rent</span>
+          </div>
           <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About Us</a></li>
@@ -24,5 +27,84 @@
           <p>Your best online rent-a-car.</p>
         </div>
     </header>
+    <section class="catalog">
+      <h3>selection from our catalog</h3>
+      <div class="cars">
+        <div class="car">
+          <img src="slike/car_civil.png" >
+          <p>Civil vehicles</p>
+          <button class="button">VIEW OFFERS</button>
+        </div>
+        <div class="car">
+          <img src="slike/car_sport.png" >
+          <p>Sport cars</p>
+          <button class="button">VIEW OFFERS</button>
+        </div>
+        <div class="car">
+          <img src="slike/car_suv.png" >
+          <p>SUV's</p>
+          <button class="button">VIEW OFFERS</button>
+        </div>
+        <div class="car">
+          <img src="slike/car_van.png" >
+          <p>Transport vehicles</p>
+          <button class="button">VIEW OFFERS</button>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="table">
+      <table>
+        <thead>
+          <th class="car-type type">Car type</th>
+          <th>Day</th>
+          <th>Week</th>
+          <th>Month</th>
+        </thead>
+
+        <tr>
+          <td class="car-type">Civil</td>
+          <td>20$</td>
+          <td>100$</td>
+          <td>350$</td>
+        </tr>
+        <tr>
+          <td class="car-type">Transport</td>
+          <td>35$</td>
+          <td>150$</td>
+          <td>500$</td>
+        </tr>
+        <tr >
+          <td class="car-type">Sports</td>
+          <td>50$</td>
+          <td>300$</td>
+          <td>900$</td>
+        </tr>
+        <tr >
+          <td class="car-type">SUV</td>
+          <td>60$</td>
+          <td>350$</td>
+          <td>1000$</td>
+        </tr>
+        
+      </table>
+    </section>
+
+    <footer>
+      <h4><a href="#">Mega</a><span>Rent</span></h4>
+      <div class="footer-adress-map">
+        <ul class="adress">
+          <li>North Road 16b</li>
+          <li>East London</li>
+          <li>United Kingdom</li>
+        </ul>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.56389021179!2d-0.5747707230047977!3d51.75929779226975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48765cacc817c54d%3A0xc827091f4c703200!2zMTZCIE5vcnRoIFJkLCBCZXJraGFtc3RlZCBIUDQgM0RVLCDQktC10LvQuNC60LAg0JHRgNC40YLQsNC90LjRmNCw!5e0!3m2!1ssr!2srs!4v1704899849899!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+
+    </footer>
+
 </body>
 </html>

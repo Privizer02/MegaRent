@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lobster&family=Mooli&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Rubik:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body header {
+  background-image: url(/slike/background.jpg);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body header .main-header {
+  text-align: center;
+}
+body header .main-header h1 {
+  color: white;
+  border-bottom: 1px solid red;
+  margin-bottom: 5px;
+  margin-top: 50%;
+  font-size: 48px;
+  font-weight: 500;
+}
+body header .main-header p {
+  margin-top: 0;
+  color: white;
+  font-size: 18px;
+}
+body header nav {
+  margin-top: 2rem;
+  width: 95vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 5px;
+}
+body header nav .logo {
+  text-decoration: none;
+  color: red;
+  font-size: 28px;
+}
+body header nav span {
+  color: grey;
+  font-size: 28px;
+}
+body header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  text-transform: uppercase;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: grey;
+}
+body .catalog {
+  text-align: center;
+  padding: 100px 0px;
+}
+body .catalog h3 {
+  color: grey;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+body .catalog .cars {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .catalog .cars .car {
+  width: 25%;
+}
+body .catalog .cars .car img {
+  width: 80%;
+}
+body .catalog .cars .car p {
+  color: rgb(168, 168, 168);
+  font-size: 18px;
+  font-weight: bold;
+}
+body .catalog .cars .car .button {
+  background-color: red;
+  color: white;
+  border: 0;
+  transition: 350ms;
+  padding: 10px 30px;
+}
+body .catalog .cars .car .button:hover {
+  background-color: rgb(209, 9, 9);
+  transform: scale(1.1);
+}
+body .table {
+  padding-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+body .table table {
+  border-collapse: collapse;
+  width: 70vh;
+}
+body .table table thead {
+  background-color: red;
+}
+body .table table thead .type {
+  color: white !important;
+  background-color: rgb(206, 5, 5);
+}
+body .table table thead th {
+  padding: 10px;
+  color: white;
+}
+body .table table tr {
+  border-bottom: 1px solid grey;
+  color: rgb(138, 138, 138);
+}
+body .table table tr td {
+  padding: 10px;
+}
+body .table table tr .car-type {
+  font-weight: bold;
+  color: gray;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 200px;
+  margin-top: 100px;
+  background-color: black;
+}
+body footer h4 {
+  font-size: 28px;
+  border-bottom: 1px solid red;
+  margin-bottom: 0;
+}
+body footer h4 a {
+  color: red;
+  text-decoration: none;
+}
+body footer h4 span {
+  color: grey;
+}
+body footer .footer-adress-map {
+  display: flex;
+  gap: 50%;
+  margin-top: 10px;
+}
+body footer .footer-adress-map .adress {
+  list-style: none;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+body footer .footer-adress-map .map {
+  width: 30%;
+  height: 80%;
+}/*# sourceMappingURL=style.css.map */
